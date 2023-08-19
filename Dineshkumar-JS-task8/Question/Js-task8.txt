@@ -1,0 +1,1 @@
+Create a page with button named ‘Show’ if u clicks the button it shows current date and time by using JavaScript?

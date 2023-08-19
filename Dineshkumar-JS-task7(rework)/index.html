@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sum and multiply of numbers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h3>Sum and Multiply of Numbers</h3>
+        <div class="user-input-field">
+            <input type="text" id="user-input" name="user-value">
+            <input type="text" id="output-value" name="output-show" readonly>
+        </div>
+        <div id="error-message"></div>
+        <div class="btn-field">
+            <button id="add-btn" name="add-button" onclick="onHandleArithmeticOperation('Add')">Add</button>
+            <button id="mutiply-btn" name="multiply-button"
+                onclick="onHandleArithmeticOperation('Multiply')">Multiply</button>
+            <button id="reset-btn" name="reset-button" onclick="onHandleReset()">Reset</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

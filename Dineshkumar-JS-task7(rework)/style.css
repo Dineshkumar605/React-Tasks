@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 50%;
+    height: 50%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0FFFF;
+    border-radius: 15px;
+}
+
+#error-message {
+    width: 70%;
+    height: 31px;
+    display: fleex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 10px;
+    color: red;
+}
+
+.btn-field {
+    width: 80%;
+    height: 10%;
+    display: flex;
+    gap: 17px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+button {
+    width: 15%;
+    font-weight: bold;
+    background-color: #0556f3;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+input {
+    font-weight: bold;
+    height: 94%;
+}
+
+input:hover {
+    background-color: #FF8C00;
+    color: white;
+    font-weight: bold;
+}
