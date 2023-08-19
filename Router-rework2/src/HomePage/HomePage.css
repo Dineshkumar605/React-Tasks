@@ -1,0 +1,63 @@
+.home-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4rem;
+    background: lightgrey;
+}
+
+.gender-count {
+    display: flex;
+    justify-content: space-around;
+}
+
+.domin-count {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.home-top-buttons {
+    display: flex;
+    height: 28px;
+    justify-content: space-around;
+}
+
+#userlist-btn {
+    color: white;
+    background-color: #0556f3;
+    border: none;
+    padding: 7px;
+    width: 6%;
+    font-weight: bold;
+}
+
+.home-subcontainer {
+    border: 1px solid;
+    margin: 0 20px;
+}
+
+.homepage-title {
+    margin-bottom: 15px;
+
+}
+
+.gender-count-field {
+    width: 50%;
+    border: 1px solid;
+    padding: 5px;
+    height: 5rem;
+}
+
+.domin-count-field {
+    width: 25%;
+    border: 1px solid;
+    padding: 5px;
+    height: 5rem;
+}
+
+.total-count {
+    border: 1px solid;
+    padding: 5px;
+    height: 5rem;
+}
