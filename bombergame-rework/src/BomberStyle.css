@@ -1,0 +1,74 @@
+.container {
+    min-height: 100Vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background: #2b709f;
+}
+
+.score-area {
+    border: 2px solid #ff0;
+    font-size: 2rem;
+    color: white;
+    padding: 10px;
+    margin: 100px auto 0;
+    width: 26rem;
+}
+
+.game-box {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.single-box {
+    color: #000;
+    border: 1px solid red;
+    padding: 20px;
+    font-size: 2rem;
+    text-align: center;
+    cursor: pointer;
+    width: auto;
+}
+
+.Game-over-area {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 10px;
+    width: 27%;
+    margin: 0 auto;
+    border: 2px solid;
+    background: white;
+}
+
+.game-over-text {
+    font-size: 37px;
+    color: red;
+}
+
+.gamelose-btn,.gamewon-btn {
+    border-radius: 6px;
+    height: 2rem;
+    margin: auto 0;
+    cursor: pointer;
+}
+
+.gamelose-btn {
+    background: #ffc107;
+    border: 2px solid #ffe492;
+}
+
+.gamewon-btn {
+    background: #28a745;
+    color: white;
+    border: none;
+   
+}
+
+.gamelose-btn:hover {
+    background-color: #d39e00;
+}
+
+.gamewon-btn:hover {
+    background-color: green;
+}
