@@ -1,0 +1,37 @@
+    <!DOCTYPE html>
+<html>
+
+<head>
+    <title>Add and remove element from an array</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h3>Add and remove element from an array</h3>   
+        <div class="input-field">
+            <div>
+                <label for="input-value">User Input</label>
+                <input type="text" id="input-value" name="input-box">
+            </div>
+            <div>
+                <label for="position-value">Position</label>
+                <input type="text" id="position-value" name="position-box">
+
+            </div>
+            <div>
+                <label for="add-value">Add value</label>
+                <input type="text" id="add-value" name="add-value-box">
+
+            </div>
+        </div>
+        <div id="error-message"></div>
+        <div class="button-field">
+            <button id="submit-btn" onclick="onHandleSubmit()">Submit</button>
+            <button id="reset-btn" onclick="onhandleReset()">Reset</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

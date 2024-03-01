@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Checkbox handling</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h3>Checkbox Handling</h3>
+        <div>
+            <input type="checkbox" id="first-check-box" name="first-box">
+            <input type="checkbox" id="second-check-box" name="second-box">
+            <input type="checkbox" id="third-check-box" name="third-box">
+            <input type="checkbox" id="fourth-check-box" name="fourth-box">
+            <input type="checkbox" id="fifth-check-box" name="fifth-box">
+        </div>
+        <div class="btn-field">
+            <button id="select-all" onclick="onHandleCheckAll()">SelectAll</button>
+            <button id="un-select-all" onclick="onHandleUnCheckAll()">UnselectAll</button>
+            <button id="opposite-select" onclick="onHandleOppositeCheck()">OppositeSelect</button>
+            <button id="reset-btn" onclick="onHandleReset()">Reset</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

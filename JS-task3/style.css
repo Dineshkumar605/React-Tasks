@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 50%;
+    height: 50%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+    background-color: #DAB5B0;
+    border-radius: 40px;
+}
+
+#vaildation-input{
+    width: 90%;
+    border: none;
+    background-color: #DAB5B0;
+}
+
+input[type="button"]{
+    padding: 4px;
+    font-weight: bold;
+    background-color: #0556f3;
+    color: white;
+    border: none;
+    width: 20%;
+}
+
+.button-field{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 29px;
+}
+
+#vaildation-message{
+    width: 70%;
+    height: 20px;
+}
+
